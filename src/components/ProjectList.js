@@ -12,11 +12,17 @@ const projects = [
 
 function ProjectList() {
   return (
-    <div id="elem-container">
+    <div className="w-full">
       {projects.map((project, idx) => (
-        <div className="elem" data-image={project.image} key={idx}>
-          <div className="overlay" />
-          <h2>{project.title}</h2>
+        <div
+          className="group relative h-[150px] w-full border-b border-[#38383864] overflow-hidden flex items-center px-[2vw]"
+          data-image={project.image}
+          key={idx}
+        >
+          <div
+            className="absolute left-0 top-[-100%] h-full w-full bg-orange-500 transition-all duration-200 ease-in group-hover:top-0"
+          />
+          <h2 className="text-[3vw] relative z-10">{project.title}</h2>
         </div>
       ))}
     </div>
