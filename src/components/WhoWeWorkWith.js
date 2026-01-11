@@ -48,7 +48,7 @@ function WhoWeWorkWith() {
           color: '#000'
         }
       }, 'HUNTER'),
-      description: 'Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in Women\'s, Men\'s and Kid\'s zones. Thirty-five (35) additional smaller take-downs in Nordstrom stores across the US. Concept design for Holiday boot customization events in stores across winter 2022.'
+      description: 'Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, including activations in Women\'s, Men\'s and Kid\'s zones. Thirty-five (35) additional smaller take-downs in Nordstrom stores across the US. Ongoing production and design support for Hunter retail locations across the US.'
     }
   ];
 
