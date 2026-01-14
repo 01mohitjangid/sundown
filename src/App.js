@@ -9,8 +9,6 @@ import Page2Bottom from './components/Page2Bottom';
 import ProjectList from './components/ProjectList';
 import DesignExecution from './components/DesignExecution';
 import WhoWeWorkWith from './components/WhoWeWorkWith';
-import SwiperSection from './components/SwiperSection';
-import Page5 from './components/Page5';
 import FullScreenDiv from './components/FullScreenDiv';
 import Footer from './components/Footer';
 
@@ -38,10 +36,6 @@ function App() {
           </div>
           <WhoWeWorkWith />
         </div>
-        <div id="page4">
-          <SwiperSection />
-        </div>
-        <Page5 />
         <FullScreenDiv />
       </div>
       <Footer />
