@@ -10,12 +10,24 @@
 html, body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
 }
 
 #main {
   /* background-color: #000; */
   position: relative;
   z-index: 10;
+  transform-origin: top center;
+}
+
+.page-slide-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
 }
 
 #page1 {
@@ -656,4 +668,13 @@ nav h3 {
       font-size: 9vw;
     
   }
+}
+
+/* Full Page Slide Animation */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }
