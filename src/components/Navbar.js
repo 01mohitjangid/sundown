@@ -19,7 +19,7 @@ function Navbar() {
             <span
               className="relative z-10 transition-colors duration-400 group-hover:text-white"
             >
-              <a href="#">{item}</a>
+              <a href={item === 'Work' ? '/#work' : item === 'Studio' ? '/#studio' : '/#contact'}>{item}</a>
             </span> 
             <span
               className="absolute left-0 bottom-[-100%] w-full h-full bg-black rounded-full transition-all duration-400 group-hover:bottom-0 group-hover:rounded-none"

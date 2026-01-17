@@ -30,7 +30,7 @@ function Footer() {
             {['Work', 'Studio', 'Contact'].map((item) => (
               <a 
                 key={item}
-                href="#" 
+                href={item === 'Work' ? '/#work' : item === 'Studio' ? '/#studio' : '/#contact'}
                 className="text-white hover:opacity-80 transition-opacity cursor-pointer"
                 style={{ 
                   fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
@@ -119,7 +119,9 @@ function Footer() {
             Brooklyn, NY
           </span>
           <a 
-            href="#" 
+            href="https://instagram.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:opacity-80 transition-opacity"
             style={{
               fontSize: '0.85vw',
@@ -131,7 +133,9 @@ function Footer() {
             Instagram
           </a>
           <a 
-            href="#" 
+            href="https://linkedin.com" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:opacity-80 transition-opacity"
             style={{
               fontSize: '0.85vw',
